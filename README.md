@@ -9,6 +9,11 @@ https://realpython.github.io/fake-jobs/
 Project Aim
 The aim of the project is to use Python for web scraping and using libraries such as requests, BeautifulSoup, Pandas and datetime.
 
+Project Background
+This project was aimed at using Python programming language to scrape a typical job using libraries such as Requests, BeautifulSoup, Pandas and datetime.
+This involves making request to the webpage using the Requests library and parsing the HTML using BeautifulSoup library to facilitate the extraction of job data. 
+The transformation of the data involves using Pandas DataFrame to organize the table in a structured format. Lastly the data is stored as a CSV file.
+
 Here's a breakdown of what the script does:
 1/ Make request the Web Page: It sends an HTTP request to the URL to get the HTML content of the page.
 2/ Parses the HTML: It uses the BeautifulSoup library to parse the HTML, making it easy for Python to navigate and extract specific elements.
