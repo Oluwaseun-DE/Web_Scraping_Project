@@ -26,7 +26,6 @@ Here's a breakdown of what the script does:
 (iv) Date Posted:
 (a) The date posted was converted to datetime object.
 (b) The Date posted was further parsed to create two additional columns. One containing the day of week, day and month, and the second column containing the year.
-
 5/ Stores the data in a DataFrame: It organizes the extracted data into a Pandas DataFrame, a tabular data structure that is convenient for data analysis and for data scientists
 6/ Prints the DataFrame: Finally, it prints the DataFrame, displaying the extracted job data in a structured format. The first 20 data were display using df_jobs.head(20)
 7/ Saves to CSV: The script also saves the DataFrame to a CSV file (scraped_jobs.csv).
